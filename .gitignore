@@ -1,0 +1,23 @@
+# ---- 파이썬·도구
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.playwright-mcp/
+test-results/
+
+# ---- 비밀 정보 (API 키)
+.env
+
+# ---- 실행 데이터: 구독 기사 원문·가격·DB·리포트·백업 → 올리지 않음
+# (앞에 / 를 붙여 steelsignal 폴더 바로 아래만 제외. tests/fixtures/input 의 가상 데이터는 올라감)
+/steelsignal/input/
+/steelsignal/output/
+/steelsignal/data/
+/steelsignal/backup/
+
+# ---- 설정 저장 시 생기는 임시·백업 파일
+*.bak
+*.tmp
